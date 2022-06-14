@@ -81,6 +81,8 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 25px;
+  margin-right: 20px;
 }
 
 .seccion-servicios h2 {
@@ -91,3 +93,30 @@ header {
 .seccion-servicios p {
   font-size: 1.25em
 }
+
+.container-icons {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  }
+
+.container-icons p {
+width: 100%;
+text-align: center;
+
+
+}
+
+i:hover {
+color: midnightblue;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+
